@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+</head>
+
+<body>
+    <div class="reward__wrap">
+        <!-- Swiper -->
+        <div class="swiper mySwiper reward__quiz__swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/quiz_1.png" class="swiper__quiz__img">
+                    <div class="swiper__quiz__text">
+                        <p class="swiper__quiz__p">안녕하세요</p>
+                        <div class="swiper__quiz__explanation">
+                            <p class="swiper__quiz__explanation__p">리워드는 퀴즈형식으로 보여지며, <br>
+                                다음문장을 보시려면 오른쪽으로 넘겨주세요</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/quiz_2.png" class="swiper__quiz__img">
+                    <div class="swiper__quiz__text">
+                        <p class="swiper__quiz__p">안녕하십니까</p>
+                        <div class="swiper__quiz__explanation">
+                            <p class="swiper__quiz__explanation__p">리워드는 퀴즈형식으로 보여지며, <br>
+                                다음문장을 보시려면 오른쪽으로 넘겨주세요</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/quiz_3.png" class="swiper__quiz__img">
+                    <div class="swiper__quiz__text">
+                        <p class="swiper__quiz__p">안녕하셨서요</p>
+                        <div class="swiper__quiz__explanation">
+                            <p class="swiper__quiz__explanation__p">리워드는 퀴즈형식으로 보여지며, <br>
+                                다음문장을 보시려면 오른쪽으로 넘겨주세요</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper__quiz__btn">
+                <button type="button">SKIP</button>
+                <a href="#" class="swiper__quiz__a">홈으로 돌아가기</a>
+            </div>
+            <div class="swiper-pagination swiper-pagination__quiz"></div>
+        </div>
+    </div>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+</body>
+
+</html>
