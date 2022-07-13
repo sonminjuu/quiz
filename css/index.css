@@ -1,6 +1,22 @@
-body{
+/* body{
     min-height: calc(var(--vh, 1vh) * 100);
-}
+} */
+
+body {
+    min-height: 100vh;
+    /* mobile viewport bug fix */
+    min-height: -webkit-fill-available;
+  }
+  
+  html {
+    height: -webkit-fill-available;
+  }
+
+  /* iOS only */ 
+
+@supports (-webkit-touch-callout: none) {
+    height: -webkit-fill-available;
+  }
 
 .reward__wrap{
     width: 100%;
