@@ -1,8 +1,10 @@
+
+
 .reward__wrap{
     width: 100%;
     background: #A2DFFE;
-    height: 100vh; /* 혹시나 Custom Property 지원 안하는 브라우저를 위한 복귀점(Fallback) */
-    height: calc(var(--vh, 1vh) * 100);
+    min-height: 100vh; /* fallback */
+    min-height: calc(var(--vh) * 100);
 }
 
 .reward__quiz__swiper{
