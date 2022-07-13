@@ -15,7 +15,7 @@
 }
 
 .swiper__quiz__img{
-    width: 350px;
+    width: 300px;
     position: relative;
     height: auto;
 }
@@ -55,7 +55,7 @@
 
 .swiper__quiz__btn {
     position: absolute;
-    bottom: 60px;
+    bottom: 120px;
     width: 100%;
     text-align: center;
     display: flex;
