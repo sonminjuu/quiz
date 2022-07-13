@@ -80,5 +80,5 @@
     font-size: 12px;
     font-family: 'GmarketSansMedium';
     color: #3e4056;
-    z-index: 2;
+    z-index: 9999;
 }
